@@ -15,6 +15,11 @@ public class AmdocsDemo1Application {
 		return "welcome to jenkins CICD";
 		
 	}
+	@GetMapping("/message1")
+	public String getMessage1() {
+		return "welcome to jenkins CICD new";
+		
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(AmdocsDemo1Application.class, args);
 	}
